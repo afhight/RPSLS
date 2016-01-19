@@ -1,0 +1,91 @@
+<html>
+<head>
+	<title>Rock, Paper, Scissors, Lizard, Spock</title>
+
+<link rel="stylesheet" type="text/css" href="RPSstyle.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="RPSassets/stylesheets/slatebootstrap.min.css"/>
+
+</head>
+<body>
+
+<h1>ROCK PAPER SCISSORS LIZARD SPOCK</h1>
+<h3>Choose your weapon carefully</h3>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 center-it">
+			<div class="picsquare" id="rock">
+			<img src="RPSassets/rock.jpg" alt="rock" width="100px"/>
+			<p>ROCK</p>
+
+    	</div>
+		</div>
+
+
+
+    <div class="col-md-4 center-it">
+    	<div class="picsquare" id="paper">
+    	
+				<img src="RPSassets/paper.jpg" alt="rock" width="100px"/>
+				<p>PAPER</p>
+			</div>
+		</div>
+
+		<div class="col-md-4 center-it">
+			<div class="picsquare" id="scissors">
+			<img src="RPSassets/scissors.jpg" alt="rock" width="100px"/>
+			<p>SCISSORS</p>
+    	
+ 			</div>
+		</div>
+	</div>
+
+<div class="row">
+ <div class="col-md-6">
+    	<div class ="picsquare" id="lizard">
+    	
+				<img src="RPSassets/lizard.jpg" alt="rock" width="100px"/>
+				<p>LIZARD</p>
+			</div>
+		</div>
+
+
+ <div class="col-md-6">
+    	<div class ="picsquare" id="spock">
+    	
+				<img src="RPSassets/spock.jpg" alt="spock" width="100px"/>
+				<p>SPOCK</p>
+			</div>
+		</div>
+
+    
+  </div>
+
+  <div class="row">
+  	<div class="col-md-offset-2 col-md-8">
+  		<div class="well invisible" id="result-well">
+  			<h1 id="result"></h1>
+  		</div>
+  	</div>
+  </div>
+</div>
+
+<!--
+	create divs with separate ids for rock, paper and scissors
+
+	separate functions for each click, two var for each, userchoice = r,p or s, comp choice = the code that i have
+
+	alerts for comp choice and result
+-->
+
+
+<script src="https://code.jquery.com/jquery-1.11.2.min.js">	</script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="RPSjs.js"></script>
+
+
+</body>
+</html>

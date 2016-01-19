@@ -1,0 +1,74 @@
+h1{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+#rock{
+width:125px;
+height: 130px;
+background-color: brown;
+text-align: center;
+color:black;
+border-radius: 15px;
+ ;
+}
+
+
+#paper{
+width:125px;
+height: 130px;
+background-color: lightblue;
+text-align: center;
+color:black;
+border-radius: 15px;
+}
+
+
+#scissors{
+width:125px;
+height: 130px;
+background-color: grey;
+text-align: center;
+color:black;
+border-radius: 15px;
+
+
+}
+
+#lizard{
+width:125px;
+height: 130px;
+background-color: lightgreen;
+text-align: center;
+color:black;
+border-radius: 15px;
+}
+
+
+#spock{
+width:125px;
+height: 130px;
+background-color: orange;
+text-align: center;
+color:black;
+border-radius: 15px;
+}
+
+
+
+.picsquare{
+	margin:10px;
+	text-align: center;
+
+}
+
+.center-it {
+	text-align: center;
+}
+
+.invisible {
+	display: none;
+}
